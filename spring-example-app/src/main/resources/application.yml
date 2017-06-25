@@ -1,0 +1,16 @@
+# The server port for the embedded tomcat
+# This value can also be configured through
+# VM arg:  --server.port=[port]
+server:
+  port: 0
+
+spring:
+  profiles: default
+
+---
+
+server:
+  port: 8090
+
+spring:
+  profiles: dev

@@ -1,0 +1,20 @@
+{
+  "name": "spring-example-web",
+  "version": "1.0.0",
+  "description": "Spring Boot Frontend Application",
+  "private": true,
+  "main": "./src",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack-dev-server -d --inline --hot"
+  },
+  "author": "noname",
+  "license": "UNLICENSED",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.5.0"
+  }
+}
